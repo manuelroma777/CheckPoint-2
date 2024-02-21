@@ -1,0 +1,168 @@
+/* Define main styles */
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+/* Define margin */
+.flex {
+    margin: 10px;
+}
+
+/* Define .flexOne styles */
+.flexOne {
+    display: flex;
+}
+
+.flexOne > .square {
+    margin: 5px;
+}
+
+/* Define .flexTwo styles */
+.flexTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexTwo > .square {
+    margin: 2px;
+}
+
+/* Define .flexThree styles */
+.flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexThree > .square {
+    margin: 2px;
+}
+
+/* Define .flexFour styles */
+.flexFour {
+    display: flex;
+    width: 350px;
+    flex-flow: wrap;
+}
+
+.flexFour > .square {
+    margin: 5px;
+    background-color: #3d8b6d;
+}
+
+/* Define .flexFive styles */
+.flexFive {
+    display: flex;
+    width: 350px;
+}
+
+.flexFive > .item {
+    background-color: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+#grow {
+    flex-grow: 2;
+}
+
+/* Define .flexSix styles */
+.flexSix {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: #f1f1f1;      
+}
+
+.flexSix > .one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexSix > .two {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #d6d6d6;
+}
+
+.flexSix > .three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Define .flexSeven styles */
+.flexSeven {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    height: 400px;       
+}
+
+.flexSeven > .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexSeven > .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #f1f1f1;  
+}
+
+.flexSeven > .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flexSeven > .four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f1f1f1;  
+}
+
+/* Define .flexEight styles */
+.flexEight {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: #eeeeee;
+
+}
+
+.flexEight > .one {
+    display: flex;
+    align-items: center;
+}
+
+.flexEight > .two {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexEight > .three {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Define .flexNine styles */
+.flexNine {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    background-color: #eeeeee;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+#special {
+    align-self: flex-end;
+}
